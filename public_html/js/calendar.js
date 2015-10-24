@@ -94,18 +94,7 @@
         });
       }
 
-      /**
-       * Append a pre element to the body containing the given message
-       * as its text node.
-       *
-       * @param {string} message Text to be placed in pre element.
-       */
-      /*
-      function appendPre(message) {
-        var pre = document.getElementById('output');
-        var textContent = document.createTextNode(message + '\n');
-        pre.appendChild(textContent);
-      }*/
+
       
       // Refer to the JavaScript quickstart on how to setup the environment:
 // https://developers.google.com/google-apps/calendar/quickstart/js
@@ -140,14 +129,9 @@ function creareserva(){
               console.log(resp);
             });
              
-        var pre = document.getElementById('output');
-        //var textContent = document.createTextNode("Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas .\n\
-          //              <h2>Se ha realizado con exito.</h2><br>\n\
-            //            <i>Ante cualquier incidencia contacte con nosotros.<br>\n\
-              //          Telefono de contacto: 952 001 022</i>");
-        //pre.appendChild(textContent);
-          pre.innerHTML =   "Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas .\n\
-                        <h2>Se ha realizado con exito.</h2><br>\n\
+            var pre = document.getElementById('output');
+            pre.innerHTML =   "<h2>Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas .\n\
+                        Se ha realizado con exito.</h2><br>\n\
                         <i>Ante cualquier incidencia contacte con nosotros.<br>\n\
                        Telefono de contacto: 952 001 022</i>"   
 
