@@ -35,7 +35,7 @@
 
 
 
-
+                    $("#diaactual").append(day);
                     $("#imagen1").attr("src", data[dia].imagen1);
                     $("#imagen2").attr("src", data[dia].imagen2);
                     $("#imagen3").attr("src", data[dia].imagen3);
