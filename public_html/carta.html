@@ -1,0 +1,166 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <script src="http://platform.twitter.com/widgets.js"></script>
+        <script src="js/vendor/jquery/jquery.js" type="text/javascript"></script>
+        <script src="js/cartajson.json" type="text/javascript"></script>
+            <script src="js/carousel_Script.js" type="text/javascript"></script>
+
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+                  .carousel-inner > .item > img,
+                  .carousel-inner > .item > a > img {
+                      width:100%;
+                      margin: auto;
+                  }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="">
+                        <a href="index.html">Inicio</a></li>
+                        <li class="active"><a href="carta.html">Carta</a></li> 
+                        <li><a href="localizacion.html">Localizanos</a></li> 
+                        <li><a href="Reservas.html">Reserva</a></li> 
+                    </ul>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+        <div class="container">
+        <img src="images/fotoinicio2.jpg" class="container">
+        </div>      
+    </div>
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-3">
+          <h2>Twitter</h2>
+          <a class="twitter-timeline" href="https://twitter.com/hashtag/restaurant" 
+             data-widget-id="657304352294608896">Tweets sobre #restaurant</a>
+    <script>
+        !function(d,s,id){
+            var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+            if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+        </script>
+        </div>
+        <div class="col-md-9">
+          
+
+
+  <form role="form">
+    <div class="form-group">
+      <label for="sel1">Día de la semana:</label>
+      <select class="form-control" id="sel1">
+        <option value=0>Lunes</option>
+        <option value=1>Martes</option>
+        <option value=2>Miercoles</option>
+        <option value=3>Jueves</option>
+        <option value=4>Viernes</option>
+        <option value=5>Sabado</option>
+        <option value=6>Domingo</option>
+      </select>
+      <input type="button" value="Mostrar" onclick="showmenu()"><br>
+      <br>
+      <h1>Primer Plato:</h1>
+      <img id="imagen1" src="" class="img-circle" alt="" style="width: 800px; height: 400px;"><br>
+      <h3 id="plato1"></h3>
+      <h1>Segundo Plato:</h1>
+      <img id="imagen2" src="" class="img-circle" alt="" style="width: 800px; height: 400px;"><br>
+      <h3 id="plato2"></h3>
+      <h1>Postre:</h1>
+      <h3 id="plato3"></h3>
+      <img id="imagen3" src="" class="img-circle" alt="" style="width: 800px; height: 400px;"><br>
+    
+    </div>
+  </form>
+
+            
+            
+       </div>
+        <div class="col-md-3">
+        
+      </div>
+
+      <hr>
+
+      <footer>
+        <p style="text-align:justify ">&copy; Company 2015</p>
+      </footer>
+    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        
+                    <script>
+                
+                
+    
+   function showmenu(){
+                $.getJSON("cartajson.json", function (data) {
+                    
+                    
+                    var x= document.getElementById("sel1").value;
+                    
+                   $("#plato1").html(data[x].PrimerPlato);
+                   $("#plato2").html(data[x].SegundoPlato);
+                   $("#plato3").html(data[x].Postre);
+                   
+                    $("#imagen1").attr("src", data[x].imagen1);
+                    $("#imagen2").attr("src", data[x].imagen2);
+                    $("#imagen3").attr("src", data[x].imagen3);
+                    
+                });
+            }
+                </script>
+    </body>
+</html>

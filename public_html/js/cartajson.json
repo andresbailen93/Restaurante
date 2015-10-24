@@ -1,0 +1,34 @@
+[      {
+        "PrimerPlato":"Ensalada César", 
+        "imagen1":"js/images/ensaladacesar.jpg",
+        "SegundoPlato":"Carrillada ibérica", "imagen2": "/images/carrillada.jpg",
+        "Postre":"Tarta de queso", "imagen3":"js/images/tartadequeso.jpeg"
+        },
+    
+        {
+        "PrimerPlato":"Ensalada de langostinos con salsa tártara y espárrago blanco", "imagen1":"images/ensaladalangostinos.jpg",
+        "SegundoPlato":"Canelones", "imagen2":"images/canelones.jpg",
+        "Postre":"Copa de helado", "imagen3":"images/copadehelado.jpg"
+        },
+    
+        {"PrimerPlato":"Ensaladilla", "imagen1":"images/ensaladilla.jpg",
+        "SegundoPlato":"Paella", "imagen2":"images/paella.jpg",
+        "Postre":"Tarta de chocolate", "imagen3":"images/tartadechocolate.jpg"},
+
+        {"PrimerPlato":"Gambones gratinados con hongos y berberechos", "imagen1":"images/gambonesgratinados.jpg",
+        "SegundoPlato":"Risotto de hongos y champiñones", "imagen2":"images/risotto.jpg",
+        "Postre":"Natillas caseras", "imagen3":"images/natillas.jpg"},
+
+        {"PrimerPlato":"Ensalada de aguacate con vinagreta y matrimonios de anchoas y boquerones", "imagen1":"images/ensaladadeaguacate.jpg",
+        "SegundoPlato":"Revuelto de calabacin y champiñon natural", "imagen2":"images/revueltocalabacin.jpg",
+        "Postre":"Flan de huevo", "imagen3":"images/flan_vainilla.jpg"},
+      
+        {"PrimerPlato":"Huevos rotos con gambas crujientes", "imagen1":"images/huevosrotos.jpg",
+        "SegundoPlato":"Salmorejo", "imagen2":"images/salmorejo.jpg",
+        "Postre":"Coulant de chocolate", "imagen3":"images/coulant.jpg"},
+     
+        {"PrimerPlato":"Chipirones a la plancha", "imagen1":"images/chipirones.jpg",
+        "SegundoPlato":"Salmón gratinado al cava con vieras", "imagen2":"images/salmon-gratinado1.jpg",
+        "Postre":"Profiteroles con nata y chocolate", "imagen3":"images/profiteroles.jpg"}
+        
+]
