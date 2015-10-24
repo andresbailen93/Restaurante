@@ -128,6 +128,7 @@ function creareserva(){
             request.execute(function(resp) {
               console.log(resp);
             });
+            location.reload();
              
             var pre = document.getElementById('output');
             pre.innerHTML =   "<h2>Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas .\n\
