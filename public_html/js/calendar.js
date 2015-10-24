@@ -132,7 +132,7 @@ function creareserva(){
             document.getElementById("formu").reset();
              
             var pre = document.getElementById('output');
-            pre.innerHTML =   "<h2>Su reserva se ha realizado con exito.</h2><br><h3>  Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas.</h3><br>\n\
+            pre.innerHTML =   "<h2justify'>Su reserva se ha realizado con exito.</h2><h3>  Su reserva a nombre de " +email+ " para "+ cantidad+" personas.</h3>\n\
                         <i>Ante cualquier incidencia contacte con nosotros.<br>\n\
                        Telefono de contacto: 952 001 022</i>  <input class='form-control' type='button' value='Haz una nueva reserva' onclick='actualizapag()'>";
     
