@@ -141,12 +141,15 @@ function creareserva(){
             });
              
         var pre = document.getElementById('output');
-        var textContent = document.createTextNode("Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas .\n\
+        //var textContent = document.createTextNode("Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas .\n\
+          //              <h2>Se ha realizado con exito.</h2><br>\n\
+            //            <i>Ante cualquier incidencia contacte con nosotros.<br>\n\
+              //          Telefono de contacto: 952 001 022</i>");
+        //pre.appendChild(textContent);
+          pre.innerHTML =   "Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas .\n\
                         <h2>Se ha realizado con exito.</h2><br>\n\
                         <i>Ante cualquier incidencia contacte con nosotros.<br>\n\
-                        Telefono de contacto: 952 001 022</i>");
-        pre.appendChild(textContent);
-            
+                       Telefono de contacto: 952 001 022</i>"   
 
 }
 function eligedia(){
