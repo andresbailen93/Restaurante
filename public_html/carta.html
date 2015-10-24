@@ -88,7 +88,7 @@
   <form role="form">
     <div class="form-group">
       <label for="sel1">Día de la semana:</label>
-      <select class="form-control" id="sel1">
+      <select class="form-control" id="sel1" onchange="showmenu()">
         <option value=0>Lunes</option>
         <option value=1>Martes</option>
         <option value=2>Miercoles</option>
@@ -97,7 +97,6 @@
         <option value=5>Sabado</option>
         <option value=6>Domingo</option>
       </select>
-      <input type="button" value="Mostrar" onclick="showmenu()"><br>
       <br>
       <h1>Primer Plato:</h1>
       <h3 id="plato1"></h3>
