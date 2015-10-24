@@ -76,7 +76,8 @@
 
         request.execute(function(resp) {
           events = resp.items;
-          appendPre('Eventos Subidos:');
+          //appendPre('Eventos Subidos:');
+          
 
           if (events.length > 0) {
             for (i = 0; i < events.length; i++) {
@@ -107,7 +108,7 @@ function creareserva(){
             
             var fecha = document.getElementById("fecha").value;
             var hora = document.getElementById("hora").value;
-            var fechainicio = fecha+"T"+hora+":00+02:00";
+            var fechainicio = fecha+"T"+hora+":00+01:00";
             var fechaini=new Date(fechainicio);
         
             var resource = {
@@ -128,13 +129,16 @@ function creareserva(){
             request.execute(function(resp) {
               console.log(resp);
             });
-            location.reload();
+            document.getElementById("formu").reset();
              
             var pre = document.getElementById('output');
-            pre.innerHTML =   "<h2>Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas .\n\
-                        Se ha realizado con exito.</h2><br>\n\
+            pre.innerHTML =   "<h2>Su reserva se ha realizado con exito.</h2><br><h3>  Su reserva a nombre de: " +email+ " para "+ cantidad+" de personas.</h3><br>\n\
                         <i>Ante cualquier incidencia contacte con nosotros.<br>\n\
-                       Telefono de contacto: 952 001 022</i>"   
+                       Telefono de contacto: 952 001 022</i>  <input class='form-control' type='button' value='Haz una nueva reserva' onclick='actualizapag()'>";
+    
+            var parent=document.getElementById("formu");
+            var child=document.getElementById("boton");
+            parent.removeChild(child);   
 
 }
 function eligedia(){
@@ -201,4 +205,7 @@ function eligedia(){
               }
                   
               }
+}
+function actualizapag(){
+    location.reload();
 }

@@ -70,8 +70,10 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-3" id="output">
-
+        <div class="col-md-3">
+            <p id="output" align="justify">
+                
+            </p>
               
         </div>
         <div class="col-md-6">
@@ -88,7 +90,7 @@
             <div id="formularioReserva">
           <h2>Formulario de Reserva.</h2>          
               <div class="form-group">
-                      <form>
+                      <form id="formu">
                       Email: <input class="form-control" id="email" type="text"><br>
                       Numero de personas:  <input class="form-control" id="quantity" type="number" min="1" max="20"><br>
                       Fechas: <input class="form-control" id="fecha" type="date" onchange="eligedia()"><br>
@@ -108,7 +110,7 @@
                             <option id="horic3" value="23">23:00</option>    
                         </select>
 
-                       <input type="button" value="Haz tu Reserva." onclick="creareserva()" class="form-control">
+                       <input id="boton"type="button" value="Haz tu Reserva." onclick="creareserva()" class="form-control">
                       </form>
               </div>
             </div>
