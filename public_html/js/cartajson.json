@@ -1,8 +1,8 @@
 [      {
         "PrimerPlato":"Ensalada César", 
-        "imagen1":"js/images/ensaladacesar.jpg",
-        "SegundoPlato":"Carrillada ibérica", "imagen2": "/images/carrillada.jpg",
-        "Postre":"Tarta de queso", "imagen3":"js/images/tartadequeso.jpeg"
+        "imagen1":"images/ensaladacesar.jpg",
+        "SegundoPlato":"Carrillada ibérica", "imagen2": "images/carrillada.jpg",
+        "Postre":"Tarta de queso", "imagen3":"images/tartadequeso.jpeg"
         },
     
         {
@@ -20,7 +20,7 @@
         "Postre":"Natillas caseras", "imagen3":"images/natillas.jpg"},
 
         {"PrimerPlato":"Ensalada de aguacate con vinagreta y matrimonios de anchoas y boquerones", "imagen1":"images/ensaladadeaguacate.jpg",
-        "SegundoPlato":"Revuelto de calabacin y champiñon natural", "imagen2":"images/revueltocalabacin.jpg",
+        "SegundoPlato":"Revuelto de calabacin y champiñon natural", "imagen2":"images/revueltocalabacin.JPG",
         "Postre":"Flan de huevo", "imagen3":"images/flan_vainilla.jpg"},
       
         {"PrimerPlato":"Huevos rotos con gambas crujientes", "imagen1":"images/huevosrotos.jpg",

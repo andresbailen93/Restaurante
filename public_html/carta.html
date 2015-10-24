@@ -12,9 +12,9 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <script src="http://platform.twitter.com/widgets.js"></script>
         <script src="js/vendor/jquery/jquery.js" type="text/javascript"></script>
-        <script src="js/cartajson.json" type="text/javascript"></script>
+          <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
             <script src="js/carousel_Script.js" type="text/javascript"></script>
-
+            <script src="js/vendor/jquery-1.11.2.js" type="text/javascript"></script>
         
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
@@ -62,7 +62,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
         <div class="container">
-        <img src="images/fotoinicio2.jpg" class="container">
+        <img src="images/fotoinicio2.jpg" alt="fotoinicio" class="container">
         </div>      
     </div>
 
@@ -124,12 +124,13 @@
       <footer>
         <p style="text-align:justify ">&copy; Company 2015</p>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+    </div> <!-- /container -->  
+  
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
-        <script src="js/main.js"></script>
+      
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
@@ -146,7 +147,7 @@
                 
     
    function showmenu(){
-                $.getJSON("cartajson.json", function (data) {
+                $.getJSON("js/cartajson.json", function (data) {
                     
                     
                     var x= document.getElementById("sel1").value;
