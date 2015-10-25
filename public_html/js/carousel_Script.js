@@ -3,36 +3,42 @@
                 var fecha = new Date();
                 var dia = fecha.getDay();
                 var day = "";
-
+           
 
                 $.getJSON("js/cartajson.json", function (data) {
                     var html = [];
                     //Seleccionar día de la semana
-                    dia = dia - 1;
+            
                     switch (dia) {
                         case 0:
-                            day = "Lunes";
+                            day = "Domingo";
+                            dia=dia+6;
                             break;
                         case 1:
-                            day = "Martes";
+                            day = "Lunes";
+                            dia=dia-1;
                             break;
                         case 2:
-                            day = "Miercoles";
+                            day = "Martes";
+                             dia=dia-1;
                             break;
                         case 3:
-                            day = "Jueves";
+                            day = "Miercoles";
+                             dia=dia-1;
                             break;
                         case 4:
-                            day = "Viernes";
+                            day = "Jueves";
+                             dia=dia-1;
                             break;
                         case 5:
-                            day = "Sabado";
+                            day = "Viernes";
+                             dia=dia-1;
                             break;
                         case 6:
-                            day = "Domingo";
-                            break;
+                            day = "Sabado";
+                             dia=dia-1;
+                         break;
                     }
-
 
 
                     $("#diaactual").append(day);
